@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/chaseandhunt/static/css/main.40990922.chunk.css",
-    "main.js": "/chaseandhunt/static/js/main.55d0937b.chunk.js",
-    "main.js.map": "/chaseandhunt/static/js/main.55d0937b.chunk.js.map",
+    "main.js": "/chaseandhunt/static/js/main.302b733b.chunk.js",
+    "main.js.map": "/chaseandhunt/static/js/main.302b733b.chunk.js.map",
     "runtime~main.js": "/chaseandhunt/static/js/runtime~main.352ff068.js",
     "runtime~main.js.map": "/chaseandhunt/static/js/runtime~main.352ff068.js.map",
     "static/css/2.266e55a5.chunk.css": "/chaseandhunt/static/css/2.266e55a5.chunk.css",
     "static/js/2.bc59552e.chunk.js": "/chaseandhunt/static/js/2.bc59552e.chunk.js",
     "static/js/2.bc59552e.chunk.js.map": "/chaseandhunt/static/js/2.bc59552e.chunk.js.map",
     "index.html": "/chaseandhunt/index.html",
-    "precache-manifest.d8aafa2b3bec82fcf7430ef53fb8987b.js": "/chaseandhunt/precache-manifest.d8aafa2b3bec82fcf7430ef53fb8987b.js",
+    "precache-manifest.10f956320eb011b9023a21b1dfa83441.js": "/chaseandhunt/precache-manifest.10f956320eb011b9023a21b1dfa83441.js",
     "service-worker.js": "/chaseandhunt/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/chaseandhunt/static/css/2.266e55a5.chunk.css.map",
     "static/css/main.40990922.chunk.css.map": "/chaseandhunt/static/css/main.40990922.chunk.css.map",
