@@ -1,0 +1,85 @@
+.indetailsidbar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: absolute;
+  height: 700px;
+  overflow: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.indetailsidbar a  {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.indetailsidbar  p {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    
+    
+  }
+  .indetailsidbar  p:hover {
+    cursor: pointer;
+    background-color: #555;
+    color: white;
+    
+  }
+ 
+.indetailsidbar p.active {
+  background-color: rgb(54, 125, 255);
+  color: white;
+  font-size: 1.2em;
+}
+
+
+
+div.indetailcontent {
+  margin-left: 204px;
+  padding: 1px 16px;
+  height: auto;
+  background-color: #f1f1f1;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.indetailcontent img{
+    width:300px;
+    height: auto;
+  overflow: auto;
+    float: left;
+    padding: 30px;
+    
+}
+
+.indetailcontent p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+  .indetailsidbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .indetailsidbar p {float: left;}
+  div.indetailcontent {margin-left: 0;
+    height: auto;
+    overflow: auto;}
+}
+
+@media screen and (max-width: 786px) {
+  .indetailsidbar p {
+    text-align: center;
+    float: none;
+  }
+  div.indetailcontent {margin-left: 0;
+    height: auto;
+    overflow: auto;}
+}

@@ -1,0 +1,53 @@
+.jobssidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #3b3b3b;
+    color: aliceblue;
+    position: absolute;
+   height: auto;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .jobssidebar a {
+    display: block;
+    color: aliceblue;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .jobssidebar a.active {
+    background-color: rgb(223, 32, 32);
+    color: white;
+  }
+  
+  .jobssidebar a:hover:not(.active) {
+    background-color: #555;
+    color: rgb(255, 13, 13);
+  }
+  
+  div.jobscontents {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height:  auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .jobssidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .jobssidebar a {float: left;}
+    div.jobscontents {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 786px) {
+    .jobssidebar a {
+      text-align: center;
+      float: none;
+    }
+  }

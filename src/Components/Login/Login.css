@@ -1,0 +1,31 @@
+.lcon{
+    width: 500px;
+    background: url('../asset/bg-log.png') no-repeat  fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 460px;
+}
+.lcon a{
+   color: rgb(0, 0, 0);
+}
+.lcon a:hover{
+    color: #00ccff;
+ }
+ .llin{
+     position: relative;
+     top: -20px;
+     left: 140px;;
+     width: 80px;
+     height: 5px;
+    
+    
+ }
+ @media only screen and (max-width: 600px){
+     
+    .lcon{
+        width: 400px;
+        
+    }
+}

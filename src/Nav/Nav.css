@@ -1,0 +1,87 @@
+.nav_con{
+    background-color: #e6f7ff;
+  
+}
+.nav_img{
+    width: 35%;
+    
+}
+
+.nav_img1 img{
+    
+    width: 100px;
+    height: auto;
+        
+    
+}
+.img_pad{
+    padding: 10px;
+}
+.fb{
+   width: 150px;
+   padding: 10px;
+   margin-right: -100px;
+}
+.fb :hover{
+opacity: .6;
+}
+.twitter{
+    width: 150px;
+    padding: 10px;
+    margin-right: -100px;
+
+}
+.twitter:hover{
+    opacity: .6;
+    
+}
+.linkn{
+    width: 150px;
+    padding: 10px;
+    margin-right: -100px;
+}
+.linkn:hover{
+    
+    opacity: .6;
+    
+}
+.campno{
+    padding: 10px;
+    margin: 10px;
+}
+.campno{
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav{
+        height: auto;
+        
+    }
+    
+    .nav_img{
+        
+        width: 30%;
+        
+    }
+    .campno{
+        padding: 0px;
+        border-top: -200px;
+        font-size: 15px;
+       
+    }
+    .campno{
+        margin-right: 70px;
+        display: inline;
+    }
+    
+    
+} 
+.nav_siz{
+    width: 130px;
+    height: auto;
+}
+.bg-na{
+    background:rgb(255, 255, 255);
+   
+}

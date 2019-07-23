@@ -1,0 +1,44 @@
+.foot{
+    color: aliceblue;
+    background-color:#192841;
+    padding: 30px;
+}
+a:link{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+
+ul{
+    list-style: none;
+}
+li{
+    color: aliceblue;
+}
+.colorlink{
+    color: aliceblue;
+}
+.fp-color{
+    color:aliceblue;
+}
+
+.fp-color:hover{
+
+opacity: .6;
+    color:aliceblue;
+}
+
+.nav_img1{
+width: 60px;
+padding: 10px;
+
+}
+.nav_img1:hover{
+    opacity: 0.5;
+
+    }
+
+    .foot-img{
+        width: 200px;
+        padding: 20px;
+    }

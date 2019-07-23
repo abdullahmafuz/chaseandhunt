@@ -1,0 +1,21 @@
+
+.job-head{
+    background-image: url('../asset/job.jpg');
+    width: 100%;
+    height: 500px;
+}
+.jsearch{
+    position: relative;
+    top: 330px;
+    width: 80%;
+    height: auto;
+    padding: 40px;
+   
+    background-image: linear-gradient(to right top, #2b82f6, #5378ff, #7e68ff, #a94eff, #d407ff);
+    border-radius: 20px;
+}
+.form-control:focus {
+    border-color: #FF0000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+  }
+  
