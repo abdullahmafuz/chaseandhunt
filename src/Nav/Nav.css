@@ -83,5 +83,8 @@ opacity: .6;
 }
 .bg-na{
     background:rgb(255, 255, 255);
-   
+    width:auto; 
+  
+   max-width:auto;
+   overflow-x:hidden;
 }

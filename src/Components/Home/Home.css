@@ -115,7 +115,16 @@
     backface-visibility: hidden;
     box-shadow: 0 5px 10px -3px rgba(0,0,0,.1);
   }
-  
+  @media screen and (max-width :768px){
+    .card{
+      transform: translateX(0px) rotateY(0deg) rotateX(0deg);
+      width: 280px;
+      height: 210px;
+      margin-left: -25px;
+    }
+   
+
+}
   
   .card .enclosed {
     background: rgba(43, 67, 82, 0.88);

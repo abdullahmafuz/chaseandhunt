@@ -8,7 +8,7 @@ import s3 from '../asset/s3.png';
 import s4 from '../asset/s4.png';
 import s5 from '../asset/s5.png';
 import s6 from '../asset/s6.png';
-
+import info from './infoemploy.json';
 
 function Employer() {
 
@@ -17,11 +17,99 @@ function Employer() {
   })
     const [display, setDisplay] = useState(true);
     
-    
+    const [index ,setIndex]=useState(0);
 
     return (
      
         <div className="Companies" id="Employer">
+
+        <div className="container">
+          
+                        <div className="empside">
+
+                  <a className="active" onClick={()=>setIndex(0)}>Employer Service</a>
+                  
+                  <a  className="active1"onClick={()=>setIndex(1)} >WHAT MAKES US A BETTER CHOICE?</a>
+                  <a  className="active1" onClick={()=>setIndex(2)}>How can we add value to your organisation?</a>
+                  <ul>
+                  <a  onClick={()=>setIndex(3)}>Minimising your timeframes and lead time</a>
+                  
+                  <a  onClick={()=>setIndex(4)}>Industry Experience</a>
+                  <a  onClick={()=>setIndex(5)}>Wider Network</a>
+                  <a  onClick={()=>setIndex(6)}>Headhunters</a>
+                  <a  onClick={()=>setIndex(7)}>Associate Partners & Extended Reach</a>
+                  </ul>
+                  
+                  <a  className="active1" onClick={()=>setIndex(8)}>How do we find the right people for you ? </a>
+                  <ul>
+                  <a  onClick={()=>setIndex(9)}>Research</a>
+                  <a  onClick={()=>setIndex(10)}>Search</a>
+                  <a onClick={()=>setIndex(11)}>Shortlisting</a>
+                  <a  onClick={()=>setIndex(12)}>Selection</a>
+                  <a  onClick={()=>setIndex(13)}>Monitoring Market Trends</a>
+                  <a  onClick={()=>setIndex(14)}>Flexibility & Speed</a>
+                  </ul>
+                </div>
+
+                <div className="empcontent p-5">
+                  {
+                    info.map((data,idx)=>{
+                        if(index === idx){
+                          return(<div className="container " key={idx}>
+                                <h4>{data.h1}</h4>
+                                <h6>{data.h2}</h6>
+                                <p>{data.h2p}</p>
+                                <p>{data.p1}</p>
+                                <p>{data.p2}</p>
+                                <p>{data.p3}</p>
+                                <p>{data.p4}</p>
+                                <p>{data.p5}</p>
+                                <p>{data.p6}</p>
+                                <p>{data.p7}</p>
+
+
+                            </div>
+                            
+                            )
+                        }
+                    })
+                  }
+                </div>
+
+                    </div>
+
+                    
+      
+
+
+
+
+
+
+                    <section className="py-5 bg-image overlay-primary fixed overlay empsign info">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-md-8">
+            <h2 className="text-white text-center">Want to register your vacancy ?</h2>
+            <p className="mb-0 text-white lead">Lorem ipsum dolor sit amet consectetur adipisicing elit tempora adipisci impedit.</p>
+          </div>
+          <div className="col-md-3 ml-auto">
+          <Link className="btn btn-danger py-3 btn-block"  href="#Vacancy" to='/vacancy'>Register your vacancy</Link>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
             <div className="container text-center p-2 text-info"><h1>Industries</h1></div>
 
          <div className="container p-4">
@@ -287,19 +375,7 @@ function Employer() {
           
             
 
-         <section className="py-5 bg-image overlay-primary fixed overlay empsign info">
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-md-8">
-            <h2 className="text-white text-center">Want to register your vacancy ?</h2>
-            <p className="mb-0 text-white lead">Lorem ipsum dolor sit amet consectetur adipisicing elit tempora adipisci impedit.</p>
-          </div>
-          <div className="col-md-3 ml-auto">
-          <Link className="btn btn-danger py-3 btn-block"  href="#Vacancy" to='/vacancy'>Register your vacancy</Link>
-          </div>
-        </div>
-      </div>
-    </section>
+         
 
     <div className="features">
         <div className="container">

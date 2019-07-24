@@ -17,18 +17,18 @@ import Indetail from '../src/Components/Indetail/Indetail'
 
 import Footer from './Footer/Footer'
 
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
+import { HashRouter,Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import { register } from './serviceWorker';
 
 function App() {
  
   return (
-    <Router basename={process.env.PUBLIC_URL} >
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="app">
         <Nav />
         <Navbar />
         <Switch>
-            <Route path={process.env.PUBLIC_URL + '/'} exact component={Home}></Route>
+            <Route path='/' exact component={Home}></Route>
             <Route path='/jobseeker'component={Jobseeker}></Route>
             <Route path='/employer'component={Employer}></Route>
             <Route path='/jobs'component={Jobs}></Route>
@@ -43,7 +43,7 @@ function App() {
         <Footer />
       </div>
       
-      </Router>
+      </HashRouter>
   );
 }
 

@@ -18,7 +18,7 @@
   }
   
   .Companies .box::after {
-    content: "";
+    
     border-radius: 5px;
     position: absolute;
     z-index: -1;
@@ -79,10 +79,10 @@
   color: #3498db;
   font-size: 30px;
 }
-.features-box .features-content {
+.features-box .features-empcontent {
   padding-left: 50px;
 }
-.features-box .features-content h4 {
+.features-box .features-empcontent h4 {
   font-size: 18px;
   margin-bottom: 5px;
   font-weight: 600;
@@ -91,7 +91,7 @@
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-.features-box .features-content p {
+.features-box .features-empcontent p {
   color: rgb(245, 2, 2);
 }
 
@@ -236,4 +236,72 @@
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
+}
+
+
+.empside {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  position: absolute;
+  height: 600px;
+  overflow: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.empside a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.empside a.active {
+  background-color: rgb(253, 0, 0);
+  color: white;
+}
+.empside a.active1 {
+  background-color: rgb(14, 44, 126);
+  color: white;
+}
+
+.empside a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.empcontent {
+  margin-left: 250px;
+  padding: 1px 16px;
+  height: 600px;
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 950px) {
+  .empside {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .empside a {float: left;}
+  div.empcontent {margin-left: 0;}
+  div.empcontent {
+    width: 100%;
+    height: auto;
+    
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .empside a {
+    text-align: center;
+    float: none;
+  }
+  div.empcontent {
+    width: 100%;
+    height: auto;
+    
+  }
 }

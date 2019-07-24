@@ -8,6 +8,13 @@
     z-index: 999;
     
 }
+@media screen and (max-width:768){
+  .sticky{
+  width:auto; 
+  
+  max-width:auto;
+  overflow-x:hidden;}
+}
 .nav-link1{
     text-decoration: none;
     color: white;
