@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chaseandhunt/static/css/main.40990922.chunk.css",
+    "main.css": "/chaseandhunt/static/css/main.8701ebd7.chunk.css",
     "main.js": "/chaseandhunt/static/js/main.76d84640.chunk.js",
     "main.js.map": "/chaseandhunt/static/js/main.76d84640.chunk.js.map",
     "runtime~main.js": "/chaseandhunt/static/js/runtime~main.352ff068.js",
@@ -9,10 +9,10 @@
     "static/js/2.35dd41c6.chunk.js": "/chaseandhunt/static/js/2.35dd41c6.chunk.js",
     "static/js/2.35dd41c6.chunk.js.map": "/chaseandhunt/static/js/2.35dd41c6.chunk.js.map",
     "index.html": "/chaseandhunt/index.html",
-    "precache-manifest.1a4f116ff112e8a19f3d6edd5b00917b.js": "/chaseandhunt/precache-manifest.1a4f116ff112e8a19f3d6edd5b00917b.js",
+    "precache-manifest.8b55eabfc7663bb2854009fb493b7f91.js": "/chaseandhunt/precache-manifest.8b55eabfc7663bb2854009fb493b7f91.js",
     "service-worker.js": "/chaseandhunt/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/chaseandhunt/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.40990922.chunk.css.map": "/chaseandhunt/static/css/main.40990922.chunk.css.map",
+    "static/css/main.8701ebd7.chunk.css.map": "/chaseandhunt/static/css/main.8701ebd7.chunk.css.map",
     "static/media/1.png": "/chaseandhunt/static/media/1.9222555a.png",
     "static/media/2.jpg": "/chaseandhunt/static/media/2.114996e7.jpg",
     "static/media/3.jpg": "/chaseandhunt/static/media/3.91f26048.jpg",
