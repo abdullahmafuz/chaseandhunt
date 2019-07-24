@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "759687f059751cfeeb01dec8c2d057c8",
+    "revision": "8331f4e8d528ae2417a1362b4a48b764",
     "url": "/chaseandhunt/index.html"
   },
   {
-    "revision": "aa34be4ce7cf71008b41",
+    "revision": "a2bb2e84adca10207b17",
     "url": "/chaseandhunt/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "aee72c1b5ab43c6d6b9f",
-    "url": "/chaseandhunt/static/css/main.f1389cc3.chunk.css"
+    "revision": "15fd96d9943ae5ab4a06",
+    "url": "/chaseandhunt/static/css/main.3040c392.chunk.css"
   },
   {
-    "revision": "aa34be4ce7cf71008b41",
-    "url": "/chaseandhunt/static/js/2.1403003c.chunk.js"
+    "revision": "a2bb2e84adca10207b17",
+    "url": "/chaseandhunt/static/js/2.0fd6d65d.chunk.js"
   },
   {
-    "revision": "aee72c1b5ab43c6d6b9f",
-    "url": "/chaseandhunt/static/js/main.ec5def1f.chunk.js"
+    "revision": "15fd96d9943ae5ab4a06",
+    "url": "/chaseandhunt/static/js/main.4be74712.chunk.js"
   },
   {
     "revision": "2936c58fa7b8f4d172db",
